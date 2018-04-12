@@ -1,0 +1,756 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Eshop - Minimalist eCommerce HTML5 Template.
+  Template URI: https://www.rashadulislam.com/demo/eshop-preview/
+  Description: Eshop is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: codexfusion
+  Author URI: https://themeforest.net/user/codexfusion
+  Version: 1.1
+-----------------------------------------------------------------------------------*/
+
+
+/* Large screen desktop */
+
+@media (min-width: 1366px) and (max-width: 1500px) {}
+
+@media (min-width: 1170px) and (max-width: 1500px) {}
+
+
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    /*----------------------------
+      Home One
+    ------------------------------*/
+    .featured__category {
+        padding: 80px 0px;
+    }
+
+
+    /*----------------------------
+      Home Two
+    ------------------------------*/
+    .feature__product__two {
+        padding: 80px 0px 71px;
+    }
+    .deal__of__day {
+        padding-bottom: 80px;
+    }
+    .best__pro__area {
+        padding-bottom: 70px;
+    }
+    .letest_blog {
+        padding-bottom: 80px;
+    }
+    .single__product{
+        max-width: 33%;
+    }
+
+
+}
+
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .mega_right_thumb{
+        display: none!important;
+    }
+    /*----------------------------
+      Home One
+    ------------------------------*/
+    .mobile__menu .slicknav_btn {
+        top: -39px;
+    }
+    .extra-menu ul li.toogle__menu{
+        display: none;
+    }
+    .full__screen__slide {
+        margin-top: 0;
+    }
+    .featured__category {
+        padding: 70px 0px;
+    }
+
+    .footer__style__one {
+        padding: 70px 0px 20px;
+    }
+    /*----------------------------
+      Home Two
+    ------------------------------*/
+    .header__style_two{
+        position: absolute;
+    }
+
+    .header__style_two .mobile__menu .slicknav_btn {
+        top: -43px;
+    }
+    .header__style_two {
+        padding: 1px 0px 10px;
+    }
+    .feature__product__two {
+        padding: 70px 0px 65px;
+    }
+    .deal__of__day {
+        padding-bottom: 70px;
+    }
+    .best__pro__area {
+        padding-bottom: 62px;
+    }
+    .blog_post_date span.date {
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+    .blog_post_date span.month {
+        font-size: 13px;
+    }
+    .blog_post_date {
+        border: 5px solid #ffffff;
+        padding: 3px 15px;
+    }
+    .letest_blog {
+        padding-bottom: 70px;
+    }
+
+    /*----------------------------
+      About Us
+    ------------------------------*/
+    .breadcumb-area {
+        padding: 90px 0px;
+    }
+    .about-main-area{
+        padding: 90px 0px 70px;
+    }
+    .about-content h3{
+        margin-top: 40px;
+    }
+    .about-content ul li a {
+        display: inline-flex;
+        margin-bottom: 2px;
+    }
+    .our-mission-area{
+        padding-bottom: 90px;
+    }
+
+    /*----------------------------
+      Blog
+    ------------------------------*/
+    .blog-area,
+    .blog-details-area{
+        padding: 90px 0px;
+    }
+
+    /*----------------------------
+      Contact
+    ------------------------------*/
+    .contact-area{
+        padding: 90px 0px;
+    }
+    .contact-wrap ul li{
+        margin-top: 27px;
+        width: 47%;
+        display: inline-block;
+    }
+    #googleMap{
+        height: 300px;
+    }
+
+    /*----------------------------
+      Other Page
+    ------------------------------*/
+    .account-area,
+    .cart-area,
+    .checkout-area{
+        padding: 90px 0px;
+    }
+    .cartcupon-wrap ul li button{
+        margin-bottom: 10px;
+    }
+    .cart-total a {
+        padding: 10px 14px;
+    }
+    .order-area{
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .mega_right_thumb{
+        display: none!important;
+    }
+    /*----------------------------
+      Home One
+    ------------------------------*/
+    .extra-menu ul li.toogle__menu,
+    .extra-menu ul li.search__open{
+        display: none;
+    }
+    .header-top {
+        padding: 4px 0px 14px;
+    }
+    .header-social{
+        padding: 5px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+    .header-top .logo{
+        margin-top: 18px;
+    }
+    .header-top .extra-menu {
+        margin-top: 23px;
+    }
+    .header-top .header-social,
+    .header-top .extra-menu {
+        text-align: center;
+    }
+    .extra-menu ul li {
+        margin: 0px 11px;
+    }
+    .header-social ul li {
+        margin: 0px 10px;
+    }
+    .shopping__cart {
+        width: 90%;
+    }
+    .sp_cart__show__hide.shopping__cart {
+        right: 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .offset_menu {
+        width: 90%;
+    }
+    .offset__menu__show__hide.offset_menu {
+        right: 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .footer__style__one {
+        padding: 60px 0px 20px;
+    }
+
+    /*----------------------------
+      Home Two
+    ------------------------------*/
+    .header__style_two {
+        padding: 1px 0px 10px;
+        position: absolute;
+    }
+
+    
+}
+
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    /*----------------------------
+      Home One
+    ------------------------------*/
+    .header-top .header-social,
+    .header-top .extra-menu {
+        text-align: center;
+    }
+    .extra-menu ul li {
+        margin: 0px 11px;
+    }
+    .header-social ul li {
+        margin: 0px 10px;
+    }
+    .extra-menu ul li.search__open {
+        display: inline-block !important;
+    }
+    .shopping__cart {
+        width: 90%;
+    }
+    .offset_menu {
+        width: 90%;
+    }
+    .header-top .extra-menu {
+        margin-top: 25px;
+    }
+
+    /*other*/
+    .slider__inner h2 {
+        font-size: 45px;
+        letter-spacing: 0;
+    }
+    .full__screen__slide .slide {
+        min-height: 533px;
+    }
+    .featured__category {
+        padding: 60px 0px 31px;
+        text-align: center;
+    }
+    .product__menu {
+        margin-bottom: 21px;
+    }
+    .single_item {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .product__menu button {
+        margin: 0px 5px 20px;
+    }
+    .product__inner {
+        position: relative;
+        display: inline-block;
+        width: auto;
+    }
+    .product_area {
+        text-align: center;
+    }
+    .full__screen__slide {
+        margin-top: 0;
+    }
+    .our_product__area {
+        padding-bottom: 15px;
+    }
+
+
+    /*----------------------------
+      Home Two
+    ------------------------------*/
+
+    .box_style_slider .slide,
+    .box_style_slider__two .slide {
+        height: 335px;
+    }
+    .box_style_slider .slider__inner h1,
+    .box_style_slider__two h1 {
+        font-size: 36px;
+    }
+    .feature__product__two {
+        padding: 58px 0px 41px;
+    }
+    .single_fea_product {
+        margin-bottom: 10px;
+    }
+    .fea_pro_info {
+        right: auto;
+        left: 20px;
+        text-align: left;
+    }
+    .deal__of__day {
+        display: block;
+    }
+    .deal_day_thumb {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .deal__thumb__inner {
+        margin-right: 0px;
+    }
+    .deal__of__day {
+        display: block;
+        padding-bottom: 50px;
+    }
+    .deal__info__iner {
+        padding: 0px 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .deal__count__down {
+        display: flex;
+        margin-top: 48px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .deal__count__down .cdown {
+        margin: 0px;
+    }
+    .deal__count__down .cdown .time-count{
+        font-size: 30px;
+    }
+    .deal__count__down .cdown p{
+        font-size: 14px;
+    }
+    .best__pro__area {
+        padding-bottom: 52px;
+    }
+    .single_blog {
+        margin-bottom: 25px;
+    }
+    .letest_blog {
+        padding-bottom: 36px;
+    }
+
+    /*----------------------------
+      About Us
+    ------------------------------*/
+    .breadcumb-area {
+        padding: 80px 0px;
+    }
+    .about-main-area{
+        padding: 80px 0px 60px;
+    }
+    .about-content h3{
+        margin-top: 40px;
+    }
+    .about-content ul li a {
+        display: inline-flex;
+        margin-bottom: 2px;
+    }
+    .our-mission-area{
+        padding-bottom: 80px;
+    }
+
+    /*----------------------------
+      Blog
+    ------------------------------*/
+    .blog-area,
+    .blog-details-area{
+        padding: 80px 0px;
+    }
+    .blog-details-wrap h3 {
+        margin: 14px 0px 6px 0;
+        font-size: 19px;
+    }
+    .inner_image{
+        margin-bottom: 15px;
+    }   
+    .comment-wrap1 {
+        margin-left: 36px;
+    }
+    .sidebar-area{
+        margin-top: 50px;
+    }
+
+    /*----------------------------
+      Shop
+    ------------------------------*/
+    .shop_item{
+        padding: 80px 0px 30px;
+    }
+
+    /*----------------------------
+      Contact
+    ------------------------------*/
+    .contact-area{
+        padding: 80px 0px;
+    }
+    .contact-wrap ul li{
+        margin-top: 40px;
+    }
+    #googleMap{
+        height: 300px;
+    }
+
+    /*----------------------------
+      Other Page
+    ------------------------------*/
+    .account-area,
+    .cart-area,
+    .checkout-area {
+        padding: 80px 0px;
+    }
+    .cupon-wrap {
+        margin-bottom: 40px;
+    }
+    .cart-total h3,
+    .cart-total ul li:last-child span{
+        font-size: 23px;
+    }
+
+    label.fontsize {
+        font-size: 14px;
+    }
+    .order-area{
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 240px) and (max-width: 479px) {
+
+
+    /*----------------------------
+      Home One
+    ------------------------------*/
+    /*slider area*/
+    .full__screen__slide {
+        margin-top: 0;
+    }
+	.shopping__cart {
+		padding: 0px 16px 0px 10px;
+	}
+    .crt_remove_btn {
+        right: 6px;
+    }
+    .full__screen__slide .owl-nav {
+		display: none;
+	}
+    .full__screen__slide .slide {
+        height: 400px;
+        min-height: 400px;
+    }
+	.slider__inner h5 {
+		font-size: 23px;
+		letter-spacing: 0;
+	}
+	.slider__inner h2 {
+		font-size: 35px;
+		letter-spacing: 0;
+	}
+	.shop__now__btn {
+		margin-top: 33px;
+	}
+	.section_title h4 {
+		font-size: 22px;
+	}
+	.featured__category {
+		padding: 60px 0px 38px;
+	}
+	.single_item {
+		margin-bottom: 20px;
+	}
+    .product__menu button {
+        margin: 5px 10px;
+        width: 41%;
+        display: inline-block;
+    }
+	.our_product__area {
+		padding-bottom: 15px;
+	}
+	.footer__style__one .widget {
+		margin-bottom: 40px;
+	}
+	.footer__style__one {
+		padding: 60px 0px 20px;
+		text-align: center;
+	}
+	.footer__style__one h4.widget__title::before {
+		left: calc(50% - 34px);
+	}
+	.footer__style__one h4.widget__title::after{
+		left: calc(50% - 15px);
+	}
+	.widget__contact table {
+        display: inline-block;
+        text-align: left;
+    }
+
+	/*quick view*/
+	.modal_product {
+		display: block;
+	}
+	#quick_view .modal-dialog {
+		min-width: 100%;
+		margin: 0;
+	}
+	.product__img {
+		width: 100%;
+		padding: 15px;
+	}
+	.product_info {
+		width: 100%;
+		padding: 15px 15px 40px;
+	}
+	.select_color, .select_size, .product__info {
+		display: block;
+	}
+	.modal_closer {
+		right: 10px;
+		top: 10px;
+	}
+
+
+    /*----------------------------
+      Home Two
+    ------------------------------*/
+    .box_style_slider .slide,
+    .box_style_slider__two .slide {
+        height: 308px;
+    }
+    .box_style_slider .slider__inner h1,
+    .box_style_slider__two h1 {
+        font-size: 35px;
+        line-height: 44px;
+        text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    }
+    .box_style_slider .owl-nav {
+        display: none;
+    }
+    .feature__product__two {
+        padding: 58px 0px 41px;
+    }
+    .single_fea_product {
+        margin-bottom: 10px;
+    }
+    .deal__thumb__inner{
+        margin-right: 0;
+    }
+    .fea_pro_info > a {
+        font-size: 19px;
+        letter-spacing: 0;
+    }
+    .fea_pro_info {
+        right: auto;
+        left: 20px;
+        text-align: left;
+    }
+    .best__pro__area {
+        padding-bottom: 52px;
+    }
+    .deal__of__day {
+        display: block;
+    }
+    .deal_day_thumb {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .deal__of__day {
+        display: block;
+        padding-bottom: 49px;
+    }
+    .deal__info__iner {
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .deal__count__down {
+        display: flex;
+        margin-top: 48px;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .deal__count__down .cdown {
+        margin: 0px;
+    }
+    .deal__count__down .cdown .time-count{
+        font-size: 30px;
+    }
+    .deal__count__down .cdown p{
+        font-size: 14px;
+    }
+    .single_blog {
+        margin-bottom: 25px;
+    }
+    .letest_blog {
+        padding-bottom: 35px;
+    }
+    .offset_filter {
+        right: -134%;
+    }
+    .offset_filter__show__hide.offset_filter {
+        right: 0;
+        width: 306px;
+    }
+    .deal_day_thumb::before{
+        display: none;
+    }
+    .best__pro__area .owl-nav{
+        display: none;
+    }
+
+    /*----------------------------
+      About Us
+    ------------------------------*/
+    .breadcumb-area {
+        padding: 70px 0px;
+    }
+    .about-main-area{
+        padding: 70px 0px 50px;
+    }
+    .about-content h3{
+        margin-top: 40px;
+    }
+    .about-content ul li a {
+        display: inline-flex;
+        margin-bottom: 2px;
+        font-size: 15px;
+    }
+    .our-mission-area{
+        padding-bottom: 70px;
+    }
+
+    /*----------------------------
+      Blog
+    ------------------------------*/
+    .blog-area,
+    .blog-details-area{
+        padding: 70px 0px;
+    }
+    .blog-details-wrap h3 {
+        margin: 14px 0px 6px 0;
+        font-size: 19px;
+    }
+    .inner_image{
+        margin-bottom: 15px;
+    }
+    .share-wrap .text-right{
+        margin-top: 15px;
+        text-align: center!important;
+    }
+    .comment-wrap1 {
+        margin-left: 36px;
+    }
+    .sidebar-area{
+        margin-top: 50px;
+    }
+
+    /*----------------------------
+      Shop
+    ------------------------------*/
+    .shop_item{
+        padding: 70px 0px 20px;
+    }
+
+    /*----------------------------
+      Contact
+    ------------------------------*/
+    .contact-area{
+        padding: 70px 0px;
+    }
+    .contact-wrap ul li{
+        margin-top: 40px;
+    }
+    #googleMap{
+        height: 300px;
+    }
+
+    /*----------------------------
+      Other Page
+    ------------------------------*/
+    .account-area,
+    .cart-area,
+    .checkout-area{
+        padding: 70px 0px;
+    }
+    .cartcupon-wrap ul li button{
+        margin-bottom: 10px;
+    }
+    .cupon-wrap {
+        margin-bottom: 40px;
+    }
+    .cart-total h3,
+    .cart-total ul li:last-child span{
+        font-size: 23px;
+    }
+    label.fontsize {
+        font-size: 14px;
+    }
+    .order-area{
+        margin-top: 20px;
+    }
+
+
+
+
+}

@@ -1,0 +1,656 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Eshop - Minimalist ecommerce HTML5 Template.
+  Template URI: https://www.rashadulislam.com/demo/eshop-preview/
+  Description: Eshop is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: codexfusion
+  Author URI: https://themeforest.net/user/codexfusion
+  Version: 1.1
+-----------------------------------------------------------------------------------*/
+
+
+/*
+ 
+
+  font-family: 'Playfair Display', serif;
+
+  font-family: 'Open Sans', sans-serif;
+
+
+*/
+
+
+/*----------------------------------------
+  Menu basic style  / Header Top
+------------------------------------------*/
+
+.header-top {
+    padding: 30px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-top .header-social,
+.header-top .extra-menu {
+    margin-top: 8px;
+}
+
+.header-social ul li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.header-social ul li a,
+.extra-menu ul li span {
+    display: block;
+    color: #777;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header-social ul li a:hover,
+.extra-menu ul li span:hover {
+    color: #ff4136;
+}
+
+.header-top .logo a img {
+    width: 84px;
+}
+
+.extra-menu ul li {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+
+/*----------------------------------------
+  Menu basic style  / Header Bottom
+------------------------------------------*/
+
+#sticky-header-with-topbar {
+    position: absolute;
+    left: 0;
+    top: 98px;
+    z-index: 999;
+    width: 100%;
+}
+
+#sticky-header-with-topbar.scroll-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu nav ul li a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #5a5656;
+    padding: 25px 11px;
+    display: block;
+    letter-spacing: 0.02em;
+}
+
+.main-menu nav ul li:hover>a,
+.main-menu nav ul li.active>a {
+    color: #ff4136;
+}
+
+
+/*-----------------------------
+  Dropdown Menu
+--------------------------------*/
+
+.main-menu nav>ul>li>ul.submenu {
+    position: absolute;
+    left: 0;
+    top: 52px;
+    width: 205px;
+    padding: 10px 0px;
+    background: white;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 3px 7px -3px rgba(0, 0, 0, 0.1);
+    z-index: 9;
+}
+
+.main-menu nav>ul li:hover>ul.submenu {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.main-menu nav>ul>li>ul.submenu li {
+    display: block;
+    text-align: left;
+}
+
+.main-menu nav>ul>li>ul.submenu li a {
+    border-top: 1px solid #f9f6f6;
+    padding: 7px 15px;
+}
+
+.main-menu nav>ul>li>ul.submenu li:hover a {
+    padding-left: 20px;
+}
+
+
+/*-------------------------------
+  Mega Menu
+---------------------------------*/
+
+.main-menu nav>ul li>.mega__menu {
+    position: absolute;
+    top: 52px;
+    right: -264px;
+    z-index: 9;
+    width: 758px;
+    padding: 30px;
+    background: white;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 7px -3px rgba(0, 0, 0, 0.1);
+    padding-right: 4px;
+}
+
+.main-menu nav>ul li:hover>.mega__menu {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+.main-menu nav>ul li .mega__menu li {
+    display: block;
+}
+
+.mega__menu li a.mega__title {
+    font-weight: 600;
+    border-bottom: 1px solid #eae3e3;
+    text-align: left;
+    padding-left: 0;
+}
+
+.mega__menu li .mega__item {
+    margin-top: 20px;
+}
+
+.mega__menu li .mega__item li a {
+    text-transform: capitalize;
+    text-align: left;
+    padding: 6px 0px;
+    font-size: 13px;
+}
+
+
+/*-----------------------------------
+  mobile menu
+---------------------------------------*/
+
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav a:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #202020;
+    color: #ffffff;
+}
+
+.slicknav_open .slicknav_icon span:first-child {
+    transform: rotate(45deg)translate(1px, 6px);
+}
+
+.slicknav_open .slicknav_icon span:nth-child(2) {
+    opacity: 0;
+}
+
+.slicknav_open .slicknav_icon span:nth-child(3) {
+    transform: rotate(-45deg)translate(1px, -6px);
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    transition: all 0.3s ease 0s;
+    background-color: #423939;
+}
+
+ul.slicknav_nav li.slicknav_parent.slicknav_open>a {
+    border-radius: 0;
+    background: #202020;
+    color: #ffffff;
+}
+
+.slicknav_nav .slicknav_arrow {
+    float: right;
+}
+
+
+/*-----------------------------------
+  Header Style Two
+---------------------------------------*/
+
+.header__style_two {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header__style_two .logo {
+    margin-top: 13px;
+}
+.header__style_two .logo a{
+    display: inline-block;
+}
+.header__style_two .logo a img {
+    width: 84px;
+    margin-top: 6px;
+}
+
+.menu__Two nav ul li a {
+    padding: 24px 11px;
+}
+
+.header__style_two .extra-menu {
+    margin-top: 24px;
+}
+
+.menu__Two nav>ul>li>ul.submenu,
+.menu__Two nav>ul li>.mega__menu {
+    top: 72px;
+}
+
+
+/*-----------------------------------
+  Header Search area
+---------------------------------------*/
+
+.mobile__menu .slicknav_menu {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile__menu .slicknav_nav {
+  margin-top: 7px;
+    color: #222;
+    background: #f4d5da;
+}
+
+.mobile__menu .slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+
+.mobile__menu .slicknav_btn {
+    top: -44px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+}
+
+
+/*-----------------------------------
+  Header Search area
+---------------------------------------*/
+
+.search__area {
+    position: fixed;
+    left: 20%;
+    top: -150px;
+    width: 60%;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    z-index: 999;
+    transition: all 0.3s ease-in 0s;
+}
+
+.search__show__hide .search__area {
+    top: 0px;
+}
+
+.search__area form {
+    position: relative;
+}
+
+.search__area form input {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 50px;
+    border: 1px solid #ccc;
+}
+
+.search__area form button {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border: none;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+}
+
+.search__area .search_form_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.search__area .search_form_close:hover {
+    transform: rotate(90deg);
+}
+
+
+/*--------------------------
+  Toggle menu
+-----------------------*/
+
+.body__overlay {
+    backface-visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: url("https://www.rashadulislam.com/demo/eshop-preview/img/icon/cursor.png") 25 25, pointer;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 9999;
+}
+
+.body__overlay.is_visible {
+    transition: all 0.3s ease 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*---------------------------------
+  Shopping Cart Area
+---------------------------------*/
+
+.shopping__cart {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    width: 380px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    padding: 33px;
+    z-index: 9999;
+    transition: all 0.3s ease 0s;
+    overflow-y: scroll;
+}
+
+.sp_cart__show__hide.shopping__cart {
+    right: calc(0px - 18px);
+    transition: all 0.3s ease 0s;
+}
+
+.shopping_cart_inner {
+    margin-bottom: 40px;
+}
+
+.offset__close__btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45px;
+    width: 45px;
+    background: #303030;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.shop_cart_item {
+    margin: 60px 0px 20px;
+}
+
+.sp__single_product {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f5eded;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.sp_meta_thumb {
+    margin-right: 15px;
+    float: left;
+}
+
+.sp_meta_thumb a {
+    display: block;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+    margin: 1px;
+}
+
+.sp_meta_thumb a img {
+    max-width: 65px;
+}
+
+.sp_meta_content {
+    overflow-y: hidden;
+    width: 63%;
+}
+
+.sp_meta_content h4 a {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23px;
+    color: #606060;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 9px;
+}
+
+.sp_meta_content h4 a:hover {
+    color: red;
+}
+
+.sp_meta_content span {
+    display: block;
+}
+
+.crt_remove_btn {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    cursor: pointer;
+}
+
+.shopping_total ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping_total ul li.sb_total {
+    font-size: 17px;
+    font-weight: 500;
+    color: #443f3f;
+    font-family: 'Playfair Display', serif;
+}
+
+.shopping_total ul li.total_price {
+    font-size: 19px;
+    color: #595252;
+    font-family: 'Playfair Display', serif;
+    line-height: 17px;
+}
+
+.shopping_btn ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping_btn ul li {
+    width: 48%;
+    height: 40px;
+    line-height: 38px;
+}
+
+.shopping_btn ul li a {
+    display: block;
+    border: 1px solid #535050;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.shopping_btn ul li.checkout a,
+.shopping_btn ul li a:hover {
+    background: #383535;
+    color: #ffffff;
+}
+
+
+/*---------------------------------
+  sidebar offset menu Area
+---------------------------------*/
+
+.offset_menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 9999;
+    background: #ffffff;
+    width: 380px;
+    padding: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.offset__menu__show__hide.offset_menu {
+    right: calc(0px - 18px);
+    transition: all 0.3s ease 0s;
+}
+
+.offset_header {
+    margin: 40px 0px 29px;
+    text-align: center;
+}
+
+.offset_header a {
+    display: block;
+    margin-bottom: 27px;
+}
+
+.offset_header p {
+    font-size: 16px;
+    color: #303030;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+.offset_feature_thumb {
+    overflow: hidden;
+}
+
+.offset_feature_thumb ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offset_feature_thumb ul li {
+    margin: 5px;
+}
+
+.offset_feature_thumb ul li a {
+    display: block;
+    position: relative;
+}
+
+.offset_feature_thumb ul li a::before {
+    content: "\e607";
+    font-family: themify;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #ffffff;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.offset_feature_thumb ul li a:after {
+    content: "";
+    font-family: themify;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.offset_feature_thumb ul li a:hover:after,
+.offset_feature_thumb ul li a:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.offset_feature_thumb ul li a img {
+    max-width: 91px;
+}
+
+.offset_social {
+    margin: 33px 0px 50px;
+}
+
+.offset_social h5 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+.offset_social ul li {
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+.offset_social ul li a {
+    display: block;
+    font-size: 13px;
+}
